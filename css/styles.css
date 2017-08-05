@@ -77,7 +77,6 @@ body {
 }
 
 .content-line {
-    height: 245px;
     display: flex;
 }
 
@@ -246,4 +245,29 @@ body {
     .content-main-row-link {
         font-size: 22px;
     }
+    .content-line{
+      width: 640px;
+    }
+    .content-line-quote,.content-line-arrow{
+      height: 150px;
+      line-height: 150px;
+      vertical-align: middle;
+    }
+    .footer{
+      width: 640px;
+    }
+    .footer-content{
+      width: 490px;
+      margin: auto;
+    }
+    .footer-row{
+      display: block;
+    }
+    .footer-row-item{
+      width: 490px;
+    }
+    .footer-row-item:nth-child(2){
+      display: none;
+    }
+
 }
