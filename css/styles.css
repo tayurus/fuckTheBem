@@ -3,6 +3,7 @@ body {
     font-family: Montserrat;
 }
 
+
 .header {
     background-color: #373c3f;
 }
@@ -165,6 +166,14 @@ body {
     line-height: 26px;
 }
 
+/*!!!!!!!!!!!!!!!!!!media queries!!!!!!!!!!!!!!!!!!!!!!!*/
+
+@media (min-width:641px), (min-device-width:641px){
+  .header-content-menu-640{
+    display: none;
+  }
+}
+
 @media (max-width:980px), (max-device-width:640px) {
     .content,.header-content,.header, .footer{
         width: 980px;
@@ -195,9 +204,29 @@ body {
     .content-row-img-2 {
         background-image: url('../img/2-m.png');
     }
+
+    .header{
+      width: 640px;
+    }
     .header-content {
         width: 640px;
+        height: 74px;
+        background-color: #373c3f;
     }
+
+    .header-content-menu-640{
+      display: block;
+    }
+
+    .navbar-inverse{
+      background-color: #373c3f;
+      border-color: #373c3f;
+    }
+
+    .header-content-menu{
+      display: none;
+    }
+
     .content {
         width: 640px;
     }
